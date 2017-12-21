@@ -1,0 +1,53 @@
+# Created by: Francisco Lee
+# Created on: December 21st
+# Created for: ICS3U
+# This program is for assignment 6.
+
+import ui
+
+from numpy import random
+
+
+computer_random_card = random.radiant(1 , 10)
+# generate tandom number for the computer between deck of cards
+
+print computer_random_cards
+
+def deal_the_cards_touch_up_inside(sender):
+	# deal the cards to user
+	
+	from numpy import random
+	# genetate random cards for user and the computer.
+	
+	user_random_card = random.radiant(1, 10)
+	
+	print user_random_card
+	# show what user got 
+	
+	def deal_additional_card_touch_up_inside(sender):
+		# deal additional cards if user prefer.
+		
+		from numpy import random
+		# generates additional raandom cards assigned to each number.
+		
+		user_random_card = random.randint(1, 10)
+		
+		print user_random_cards
+		
+		if user_random_cards < computer_random_cards
+		
+		print('you lose')
+		
+		if user_random_card > computer_random_card
+		
+		print('you won')
+		
+		if user_random_card == computer_random_card
+		
+		print('tie')
+		
+		
+		
+
+v = ui.load_view()
+v.present('full_screen')
